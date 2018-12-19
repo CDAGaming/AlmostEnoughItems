@@ -36,8 +36,8 @@ public abstract class Control extends Drawable {
     }
 
     public void move(int x, int y){
-        rect.x=x;
-        rect.y=y;
+        rect.x+=x;
+        rect.y+=y;
         //rect.move(x+rect.x,rect.y+y);//Why the fuck?
     }
 
