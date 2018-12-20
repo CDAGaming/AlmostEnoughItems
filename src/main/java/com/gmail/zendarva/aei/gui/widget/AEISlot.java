@@ -132,7 +132,7 @@ public class AEISlot extends Control {
             }
         }
         else {
-            AEIRenderHelper.recipeKeybind();
+            return AEIRenderHelper.displayRecipesScreen();
         }
         return false;
     }
